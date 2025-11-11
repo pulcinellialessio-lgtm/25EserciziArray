@@ -146,9 +146,9 @@
 
                 // Calcolo di minimo, massimo e somma necessaria per la media
 
-                for (int i = 1; i < num4; i++)
+                for (int i = 0; i < num4; i++)
                 {
-                    if (min > array5[i])
+                    if (min >= array5[i])
                     {
                         min = array5[i];
                         indiceMin = i;
